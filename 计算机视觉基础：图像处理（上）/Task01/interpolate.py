@@ -17,7 +17,7 @@ if __name__ == "__main__":
     re4 = cv2.resize(img, dsize=dsize, interpolation=cv2.INTER_LINEAR)
 
     # show image
-    cv2.imshow("Original imgage", img)
+    cv2.imshow("Original image", img)
     cv2.imshow("0.5*size image by NEAREST", re1)
     cv2.imshow("0.5*size image by LINEAR", re2)
     cv2.imshow("1.5*size image by NEAREST", re3)

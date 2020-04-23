@@ -5,7 +5,7 @@ using namespace cv;
 using namespace std;
 int main(int argc, char* argv[])
 {
-	Mat img = imread("e:\\cpp_test\\rabbit.jpg");
+	Mat img = imread("rabbit.jpg");
 	if (img.empty())
 	{
 		cout << "无法读取图像" << endl;
